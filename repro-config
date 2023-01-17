@@ -1,4 +1,4 @@
-REPRO_NAME=repro-template
+REPRO_NAME=is515-week-01
 REPRO_DOCKER_ORG=cirss
 REPRO_IMAGE_TAG=latest
 
