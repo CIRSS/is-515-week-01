@@ -8,5 +8,17 @@ I MESG Resetting REPRO
 I MESG Resetting all modules
 I MESG Resetting the 'repro' module
 I MESG Re-initializing trim files for module 'repro'
+I MESG Resetting the 'shell-notebook' module
+I MESG Re-initializing trim files for module 'shell-notebook'
+I MESG Ensuring other files listed in the 'shell-notebook' module trim manifest are in the module trim directory (/mnt/is515-week-01/.shell-notebook)
+I MESG Copying trim file Makefile.demo-runner from /home/repro/repro-modules/shell-notebook-master to /mnt/is515-week-01/.shell-notebook
+I MESG Resetting the 'jupyter-service' module
+I MESG Re-initializing trim files for module 'jupyter-service'
+I MESG Copying /home/repro/repro-modules/jupyter-service-master/base-makefile to the 'jupyter-service' trim directory (/mnt/is515-week-01/.jupyter-service)
+I MESG Resetting the 'python-dev' module
+I MESG Re-initializing trim files for module 'python-dev'
+I MESG Resetting the 'graphviz-runtime' module
+I MESG Re-initializing trim files for module 'graphviz-runtime'
 I MESG Resetting the REPRO target mapping file (/mnt/is515-week-01/.repro/repro-targets)
 I MESG Installing a default (empty) target mapping file to /mnt/is515-week-01/.repro/repro-targets
+I MESG Mapping the 'jupyter-service:base:start' target to the REPRO 'start-services' target

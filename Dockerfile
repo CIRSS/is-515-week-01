@@ -1,10 +1,3 @@
-FROM cirss/repro-parent:latest
+FROM cirss/is515-repro-parent:latest
 
-COPY exports /repro/exports
-
-ADD ${REPRO_DIST}/boot-setup /repro/dist/
-RUN bash /repro/dist/boot-setup
-
-USER repro
-
-CMD  /bin/bash -il
+RUN repro.require graphviz-runtime master ${REPROS_DEV} --util
